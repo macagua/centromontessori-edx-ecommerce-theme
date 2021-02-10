@@ -1,0 +1,56 @@
+// Extra rules needed for a E-Commerce theme
+
+// utilities: developer
+// ====================
+// NOTE: use this area for any developer-needed or created styling that needs to be refactored into patterns or visually polished. Please list any template/view that your styles reference when definining them (example below):
+// Views: New Prototype View
+// --------------------
+// .crazy-new-feature {
+//   background: transparent;
+// }
+
+/////////////////// Header background color styling
+.container {
+    // background-color: #f7f7f7;
+    background-color: $cem-background-color;
+}
+
+.navbar-default {
+    // background-color: #f7f7f7;
+    background-color: $cem-background-color;
+    border-color: #eeeeee;
+}
+
+#main-navbar-collapse {
+    // background-color: #f7f7f7;
+    background-color: $cem-background-color;
+}
+
+
+.navbar .navbar-brand .navbar-brand-app {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    vertical-align: middle;
+    top: 0;
+    display: inline-block;
+    color: $cem-icon-color;
+    font-weight: 600;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-radius: 0;
+    border-bottom: 4px solid $cem-icon-color;
+}
+
+.administration-navbar div a.selected, .administration-navbar div a:active, .administration-navbar div a:focus, .administration-navbar div a:hover {
+    border-bottom: 4px solid $cem-icon-color;
+    color: black;
+}
