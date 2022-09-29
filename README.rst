@@ -5,13 +5,21 @@ Centro Educativo Montessori Debraning is an elegant, customizable theme for
 `Open edX <https://open.edx.org>`_'s `E-Commerce <https://github.com/edx/ecommerce>`_ 
 Webapp extension.
 
-.. figure:: ./screenshots/01-landing-page-ecommerce.png
+.. figure:: ./screenshots/01-landing-page-ecommerce.jpg
   :alt: Platform landing page for E-Commerce Webapp
   :align: center
   :width: 1280px
   :height: 960px
 
   Platform landing page for E-Commerce Webapp
+
+.. figure:: ./screenshots/02-landing-page-studio.jpg
+  :alt: Platform landing page for Studio Webapp
+  :align: center
+  :width: 1280px
+  :height: 960px
+
+  Platform landing page for Studio Webapp
 
 **Note**: This version of the Centro Educativo Montessori Debraning E-Commerce theme
 is compatible with the Koa release of Open edX.
