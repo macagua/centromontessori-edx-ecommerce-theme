@@ -28,7 +28,7 @@ If you have not installed Open edX with Tutor, then installation instructions wi
 
 Clone the theme repository::
 
-    git clone https://gitlab.com/macagua/centromontessori-edx-ecommerce-theme
+    git clone https://github.com/macagua/centromontessori-edx-ecommerce-theme
 
 Render your theme::
 
@@ -73,7 +73,7 @@ Setting custom values
 
 A few settings in the theme can be easily customised: this includes the theme primary color,
 landing page tagline, footer legal links. Theme settings are defined in the 
-`config.yml <https://gitlab.com/macagua/centromontessori-edx-ecommerce-theme/blob/master/config.yml>`_
+`config.yml <https://github.com/macagua/centromontessori-edx-ecommerce-theme/blob/master/config.yml>`_
 file at the root of the repository. You can override all or part of those settings by creating
 you own ``config-custom.yml`` file. Then, render the theme with::
 
@@ -86,7 +86,7 @@ you own ``config-custom.yml`` file. Then, render the theme with::
 Changing the default logo and other images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The theme images are stored in `centromontessori-edx-ecommerce-theme/static/images <https://gitlab.com/macagua/centromontessori-edx-ecommerce-theme/tree/master/static/images>`_
+The theme images are stored in `centromontessori-edx-ecommerce-theme/static/images <https://github.com/macagua/centromontessori-edx-ecommerce-theme/tree/master/static/images>`_
 for the E-Commerce Webapp. To use custom images in your theme, just replace the files stored in these folders
 with your own prior to running ``tutor config render``.
 
